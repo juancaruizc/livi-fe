@@ -1,0 +1,12 @@
+.Projects {
+  display: flex;
+  justify-content: center;
+}
+
+.projectsContainer {
+  width: 90%;
+}
+
+.projectsHeader {
+  font-size: 48px;
+}
