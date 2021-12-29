@@ -1,0 +1,16 @@
+.reviewsContainer {
+  width: 90%;
+}
+
+.Reviews {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.reviewsSubTitle {
+  color: #6c717f;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+}

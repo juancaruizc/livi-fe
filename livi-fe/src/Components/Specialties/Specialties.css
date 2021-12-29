@@ -1,0 +1,46 @@
+.techLogo {
+  width: 50px;
+}
+
+.specialtyList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.specialty {
+  width: 250px;
+  height: 40vh;
+}
+
+.specialtiesContainer {
+  width: 90%;
+  margin-top: 70px;
+}
+
+.Specialties {
+  display: flex;
+  justify-content: center;
+}
+
+.specialtiesHeader {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.specialtiesSubTitle {
+  font-size: 18px;
+  margin-bottom: 70px;
+  color: #6c717f;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  width: 42%;
+  text-align: center;
+}
+
+.specialtyDescription {
+  color: #6c717f;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}

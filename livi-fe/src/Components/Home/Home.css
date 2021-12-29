@@ -54,6 +54,7 @@ img {
 .insuranceListContainer {
   margin-top: 150px;
   width: 90%;
+  margin-bottom: 100px;
 }
 
 .insuranceListHeader {
@@ -72,7 +73,7 @@ img {
 .insuranceList {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .insurance {
