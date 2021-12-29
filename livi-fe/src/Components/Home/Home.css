@@ -1,0 +1,37 @@
+.Home {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 80%;
+}
+
+.leftView {
+  width: 45%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rightView {
+  width: 45%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.homeSubtitle {
+  color: #6c717f;
+  font-family: "Roboto", sans-serif;
+}
+
+.homeButton {
+  background-color: #e8b249;
+  color: black;
+}
+
+.homeHeader {
+  margin: 0;
+}

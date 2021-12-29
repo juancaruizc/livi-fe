@@ -1,0 +1,57 @@
+.liviFavicon {
+  width: 35%;
+  height: 35%;
+}
+
+.logoContainer {
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 25px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #403359;
+}
+
+.Nav {
+  display: flex;
+  align-items: center;
+}
+
+.navOptions {
+  margin-left: 550px;
+  margin-right: 75px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #403359;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 16px;
+}
+
+.arrowImage {
+  width: 12px;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  color: #6c717f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
