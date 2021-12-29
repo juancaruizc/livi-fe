@@ -19,7 +19,7 @@ function Nav() {
         <a href="_">Contact Us</a>
       </nav>
       <button>
-        Get Started <img src={arrowImage} className="arrowImage" alt="arrow" />
+        Lets Build <img src={arrowImage} className="arrowImage" alt="arrow" />
       </button>
     </div>
   );
