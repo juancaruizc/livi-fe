@@ -34,7 +34,7 @@ function Footer() {
         >
           <img className="githubLogo" src={githubImage} alt="" />
         </a>
-        <div className="byMe">Made with ❤️ for Livi by Juan Ruiz</div>
+        <div className="byMe">Made with ❤️ for Livi by Juan</div>
       </div>
     </div>
   );
