@@ -72,3 +72,24 @@
   color: #403359;
   font-size: 19px;
 }
+
+@media (max-width: 375px) {
+  .projectsHeader {
+    font-size: 32px;
+  }
+
+  .projectList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .Projects {
+    height: 150vh;
+  }
+}
