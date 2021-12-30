@@ -15,7 +15,7 @@ function Nav() {
       <nav className="navOptions">
         <a href="_">For Providers</a>
         <a href="_">Make a Referral</a>
-        <a href="_">About</a>
+        <a href="_">About Me</a>
         <a href="_">Contact Us</a>
       </nav>
       <button>

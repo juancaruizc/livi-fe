@@ -81,3 +81,31 @@ img {
   display: flex;
   align-items: center;
 }
+
+@media (max-width: 375px) {
+  .homeHeader {
+    font-size: 32px;
+  }
+
+  .homeViewContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftView {
+    width: 90%;
+    margin-top: 50px;
+    height: auto;
+  }
+
+  .rightView {
+    width: 100%;
+  }
+
+  .insuranceList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -40,3 +40,9 @@
   width: 90%;
   justify-content: space-between;
 }
+
+@media (max-width: 375px) {
+  .footerContainer {
+    width: 90%;
+  }
+}

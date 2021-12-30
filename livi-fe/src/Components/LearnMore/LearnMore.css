@@ -42,3 +42,25 @@
   width: 200px;
   height: 50px;
 }
+
+@media (max-width: 375px) {
+  .learnMoreContainer {
+    width: 90%;
+    height: 400px;
+  }
+
+  .headerContainer {
+    width: 90%;
+  }
+
+  .learnMoreBtn {
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+  }
+}

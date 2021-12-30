@@ -80,3 +80,32 @@
 .reviewDesc {
   height: 210px;
 }
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .reviewList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .review1 {
+    margin-bottom: 20px;
+  }
+
+  .review2 {
+    margin-bottom: 20px;
+  }
+
+  .review3 {
+    margin-bottom: 20px;
+  }
+
+  .review4 {
+    margin-bottom: 20px;
+  }
+}
