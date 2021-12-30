@@ -14,3 +14,69 @@
   font-weight: normal;
   font-size: 18px;
 }
+
+.review1 {
+  background-color: rgba(242, 175, 39);
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review2 {
+  background-color: rgba(246, 164, 185);
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review3 {
+  background-color: rgba(136, 196, 187);
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review4 {
+  background-color: rgba(245, 245, 245);
+  width: 270px;
+  height: 350px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviewFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating {
+  width: 100px;
+}
+
+.reviewContainer {
+  width: 90%;
+  margin-top: 25px;
+}
+
+.reviewList {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.reviewDesc {
+  height: 210px;
+}
