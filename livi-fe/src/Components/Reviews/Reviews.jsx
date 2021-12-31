@@ -15,6 +15,8 @@ function Reviews() {
   const [reviewThreeData, setReviewThreeData] = useState([]);
   const [reviewFourData, setReviewFourData] = useState([]);
 
+  // there is no loading and error state, however ideally, these would be implemented in an api call
+
   useEffect(() => {
     axios
       .get("https://api-livi.herokuapp.com/api/reviews")
