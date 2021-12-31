@@ -8,6 +8,7 @@ function Faq() {
   const [isQuestionThreeOpen, setIsQuestionThreeOpen] = useState(false);
   const [isQuestionFourOpen, setIsQuestionFourOpen] = useState(false);
 
+  // all of these functions can probably be combined into one function but wanted to prioritize speed for this specific project}
   const handleClickOne = (e) => {
     e.preventDefault();
     setIsQuestionOneOpen(!isQuestionOneOpen);
