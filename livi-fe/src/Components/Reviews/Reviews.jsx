@@ -30,6 +30,15 @@ function Reviews() {
       .catch((err) => console.log(err.data));
   }, []);
 
+  function dateChange() {
+    let date = new Date();
+    let day = date.getDate();
+    let month = date.getMonth() + 1;
+    let year = date.getFullYear();
+
+    return `${month}/${day}/${year}`;
+  }
+
   return (
     <div className="Reviews">
       <div className="reviewsContainer">
@@ -57,16 +66,7 @@ function Reviews() {
               <img className="rating" src={yellowStars} alt="" />
               <p className="reviewDesc">{reviewOneData.user_review_title}</p>
               <div className="reviewFooter">
-                <p>
-                  {/* Ideally below, a function would be built to return a new variable modifying the datetime into the desired date
-                  a) to make it less redundant and more reusable
-                  b) to reduce side effects and not mutate original data
-                  */}
-                  {reviewOneData.user_review_created_on.slice(
-                    0,
-                    reviewOneData.user_review_created_on.search("T")
-                  )}
-                </p>
+                <p>{dateChange(reviewOneData.user_review_created_on)}</p>
                 <p>{reviewOneData.user_display_name}</p>
               </div>
             </div>
@@ -79,13 +79,7 @@ function Reviews() {
               <p className="reviewDesc">{reviewTwoData.user_review_title}</p>
 
               <div className="reviewFooter">
-                <p>
-                  {" "}
-                  {reviewTwoData.user_review_created_on.slice(
-                    0,
-                    reviewTwoData.user_review_created_on.search("T")
-                  )}
-                </p>
+                <p>{dateChange(reviewTwoData.user_review_created_on)}</p>
                 <p>{reviewTwoData.user_display_name}</p>
               </div>
             </div>
@@ -98,12 +92,7 @@ function Reviews() {
               <p className="reviewDesc">{reviewThreeData.user_review_title}</p>
 
               <div className="reviewFooter">
-                <p>
-                  {reviewThreeData.user_review_created_on.slice(
-                    0,
-                    reviewThreeData.user_review_created_on.search("T")
-                  )}
-                </p>
+                <p>{dateChange(reviewThreeData.user_review_created_on)}</p>
                 <p>{reviewThreeData.user_display_name}</p>
               </div>
             </div>
@@ -116,13 +105,7 @@ function Reviews() {
               <p className="reviewDesc">{reviewFourData.user_review_title}</p>
 
               <div className="reviewFooter">
-                <p>
-                  {" "}
-                  {reviewFourData.user_review_created_on.slice(
-                    0,
-                    reviewFourData.user_review_created_on.search("T")
-                  )}
-                </p>
+                <p>{dateChange(reviewFourData.user_review_created_on)}</p>
                 <p>{reviewFourData.user_display_name}</p>
               </div>
             </div>
