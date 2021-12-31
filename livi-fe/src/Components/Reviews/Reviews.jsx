@@ -25,7 +25,6 @@ function Reviews() {
         setReviewTwoData(res.data[1]);
         setReviewThreeData(res.data[2]);
         setReviewFourData(res.data[3]);
-        console.log(res.data);
       })
       .catch((err) => console.log(err.data));
   }, []);
